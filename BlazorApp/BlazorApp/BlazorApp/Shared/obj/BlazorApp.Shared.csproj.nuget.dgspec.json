@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
+        "projectName": "BlazorApp.Shared",
+        "projectPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\Hien\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

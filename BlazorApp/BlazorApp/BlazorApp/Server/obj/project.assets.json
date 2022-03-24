@@ -1,0 +1,198 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v6.0": {
+      "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AspNetCore.Components.WebAssembly.Server.targets": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.1": {
+        "type": "package"
+      },
+      "Microsoft.EntityFrameworkCore.Tools/6.0.1": {
+        "type": "package"
+      },
+      "BlazorApp.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v6.0"
+      }
+    },
+    ".NETFramework,Version=v6.0/win7-x86": {
+      "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AspNetCore.Components.WebAssembly.Server.targets": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.1": {
+        "type": "package"
+      },
+      "Microsoft.EntityFrameworkCore.Tools/6.0.1": {
+        "type": "package"
+      },
+      "BlazorApp.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v6.0"
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.1": {
+      "sha512": "wigBx6wkzTvEshttivaujSDQ7oN7gTX9x5KbJb9rTtahbHhNtoE5erwRgnpSkIeAk+VdqIbCjw+VoBY/2z93Pg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.webassembly.server/6.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Microsoft.AspNetCore.Components.WebAssembly.Server.targets",
+        "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.xml",
+        "microsoft.aspnetcore.components.webassembly.server.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.server.nuspec",
+        "tools/BlazorDebugProxy/BrowserDebugHost.dll",
+        "tools/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json",
+        "tools/BlazorDebugProxy/BrowserDebugProxy.dll",
+        "tools/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/BlazorDebugProxy/Microsoft.CodeAnalysis.dll",
+        "tools/BlazorDebugProxy/Newtonsoft.Json.dll"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.SqlServer/6.0.1": {
+      "sha512": "bXmFi9F7GHT0dMUvuT2b5Pf8TtPnU6sQxZ5pvf3UElva+cD0YqsGI5bJGTx21pcMdw3bVhqzCLrpfA/zgHFyMw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.sqlserver/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
+        "microsoft.entityframeworkcore.sqlserver.6.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/6.0.1": {
+      "sha512": "jXhlTOcFct3U9YiH9KNfjIHzEPxjXgH7hiriWoZJ0PtT9/GGeWHu9Dblb5D441X+91EMqx7jbpKHNMIu6mvz5w==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/6.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/_._",
+        "microsoft.entityframeworkcore.tools.6.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
+      ]
+    },
+    "BlazorApp.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/BlazorApp.Shared.csproj",
+      "msbuildProject": "../Shared/BlazorApp.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v6.0": [
+      "BlazorApp.Shared >= 1.0.0",
+      "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
+      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 6.0.1",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.1",
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Hien\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
+      "projectName": "BlazorApp.Server",
+      "projectPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
+      "packagesPath": "C:\\Users\\Hien\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Server\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Hien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net60": {
+          "projectReferences": {
+            "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj": {
+              "projectPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj"
+            },
+            "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net60": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.1, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0",
+        ".NETFramework,Version=v6.0/win7-x86"
+      ]
+    }
+  ]
+}

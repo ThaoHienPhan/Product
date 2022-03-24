@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "9YIsGCFn5k32asSgv63a6BY2gIn66wBkOT9IwJES8JVOKZ2xK1Y5vDaFu4l4967TGe8V5SQb3s+gqeGvbXGdeQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hien\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\6.0.1\\microsoft.aspnetcore.components.webassembly.server.6.0.1.nupkg.sha512",
+    "C:\\Users\\Hien\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.1\\microsoft.entityframeworkcore.sqlserver.6.0.1.nupkg.sha512",
+    "C:\\Users\\Hien\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.1\\microsoft.entityframeworkcore.tools.6.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0",
+        ".NETFramework,Version=v6.0/win7-x86"
+      ]
+    }
+  ]
+}
