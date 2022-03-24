@@ -7,11 +7,11 @@ namespace BlazorApp.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class ProductController : ControllerBase
     {
         private readonly IProduct _IProduct;
 
-        public UserController(IProduct iProduct)
+        public ProductController(IProduct iProduct)
         {
             _IProduct = iProduct;
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj": {}
+    "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj": {
+    "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
+        "projectUniqueName": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
         "projectName": "BlazorApp.Client",
-        "projectPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
+        "projectPath": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
         "packagesPath": "C:\\Users\\Hien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Client\\obj\\",
+        "outputPath": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hien\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
-                "projectPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj"
+              "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
+                "projectPath": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj": {
+    "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
+        "projectUniqueName": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
         "projectName": "BlazorApp.Server",
-        "projectPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
+        "projectPath": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
         "packagesPath": "C:\\Users\\Hien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Server\\obj\\",
+        "outputPath": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hien\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,11 +108,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj": {
-                "projectPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj"
+              "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj": {
+                "projectPath": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj"
               },
-              "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
-                "projectPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj"
+              "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
+                "projectPath": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj"
               }
             }
           }
@@ -164,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
+    "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
+        "projectUniqueName": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
         "projectName": "BlazorApp.Shared",
-        "projectPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
+        "projectPath": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
         "packagesPath": "C:\\Users\\Hien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Shared\\obj\\",
+        "outputPath": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hien\\AppData\\Roaming\\NuGet\\NuGet.Config",

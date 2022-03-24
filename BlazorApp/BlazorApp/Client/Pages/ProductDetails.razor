@@ -1,8 +1,8 @@
-﻿@page "/fetchuserdetails"
+﻿@page "/fetchproductdetails"
 @using BlazorApp.Shared.Models
 @inject HttpClient Http
 
-<h1>User Data</h1>
+<h1>Product Data</h1>
 <p>Blazor CRUD operation</p>
 
 <div class="row">
@@ -27,7 +27,7 @@
 </div>
 <br />
 
-@if (userList == null)
+@if (productList == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -38,26 +38,23 @@ else
             <tr>
                 <th>ID</th>
                 <th>Name</th>
-                <th>Address</th>
-                <th>Department</th>
-                <th>Cell No</th>
-                <th>E-mail</th>
+                <th>Category</th>
+                <th>Price</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var user in userList)
+            @foreach (var product in productList)
             {
                 <tr>
-                    <td>@user.Userid</td>
-                    <td>@user.Username</td>
-                    <td>@user.Address</td>
-                    <td>@user.Cellnumber</td>
-                    <td>@user.Emailid</td>
+                    <td>@product.ID</td>
+                    <td>@product.Name</td>
+                    <td>@product.Category</td>
+                    <td>@product.Price</td>
                     <td>
-                        <a href='/user/edit/@user.Userid' class="btn btn-outline-dark" role="button">
+                        <a href='/product/edit/@product.ID' class="btn btn-outline-dark" role="button">
                             Edit
                         </a>
-                        <a href='/user/delete/@user.Userid' class="btn btn-outline-danger" role="button">
+                        <a href='/product/delete/@product.ID' class="btn btn-outline-danger" role="button">
                             Delete
                         </a>
                     </td>
@@ -68,45 +65,45 @@ else
 }
 
 @code {
-    protected List<Product> userList = new();
-    protected List<Product> searchUserData = new();
-    protected Product user = new();
+    protected List<Product> productList = new();
+    protected List<Product> searchProductData = new();
+    protected Product product = new();
     protected string SearchString { get; set; } = string.Empty;
 
     protected override async Task OnInitializedAsync()
     {
-        await GetUser();
+        await GetProduct();
     }
 
-    protected async Task GetUser()
+    protected async Task GetProduct()
     {
-        userList = await Http.GetFromJsonAsync<List<Product>>("api/User");
-        searchUserData = userList;
+        productList = await Http.GetFromJsonAsync<List<Product>>("api/Product");
+        searchProductData = productList;
     }
 
-    protected void FilterUser()
+    protected void FilterProduct()
     {
         if (!string.IsNullOrEmpty(SearchString))
         {
-            userList = searchUserData
-                .Where(x => x.Username.IndexOf(SearchString, StringComparison.OrdinalIgnoreCase) != -1)
+            productList = searchProductData
+                .Where(x => x.Name.IndexOf(SearchString, StringComparison.OrdinalIgnoreCase) != -1)
                 .ToList();
         }
         else
         {
-            userList = searchUserData;
+            productList = searchProductData;
         }
     }
 
-    protected void DeleteConfirm(int userID)
+    protected void DeleteConfirm(int productID)
     {
-        user = userList.FirstOrDefault(x => x.Userid == userID);
+        product = productList.FirstOrDefault(x => x.ID == productID);
     }
 
     public void ResetSearch()
     {
         SearchString = string.Empty;
-        userList = searchUserData;
+        productList = searchProductData;
     }
     
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
+      "projectUniqueName": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
       "projectName": "BlazorApp.Shared",
-      "projectPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
+      "projectPath": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
       "packagesPath": "C:\\Users\\Hien\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hien\\Downloads\\BlazorApp\\BlazorApp\\Shared\\obj\\",
+      "outputPath": "D:\\ABC\\Product\\BlazorApp\\BlazorApp\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hien\\AppData\\Roaming\\NuGet\\NuGet.Config",
